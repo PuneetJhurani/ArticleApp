@@ -13,6 +13,7 @@ class ArticleViewModel: ObservableObject{
     
     @Published var articles = [Article]()
     @Published var isLoading = true
+    @Published var errorMessage = ""
     private var repo: ArticleRepositoryProtocol?
     
     private var analyticsHelper: AnalyticsHelper?
@@ -34,6 +35,7 @@ class ArticleViewModel: ObservableObject{
                     self?.isLoading = false
                 }else {
                     self?.isLoading = false
+                    self?.errorMessage = resource.message ?? ""
                     
                 }
             }

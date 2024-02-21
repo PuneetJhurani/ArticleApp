@@ -16,7 +16,7 @@ class BaseRepository {
             let failureResource = Resource<T>(
                 failureData: nil,
                 errorCode: error?.errorCode,
-                message: error?.localizedDescription
+                message: error?.message
             )
             completion(failureResource)
         }

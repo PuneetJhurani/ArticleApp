@@ -11,8 +11,6 @@ struct ArticleListView: View {
     
     @ObservedObject private var viewModel = (articleListModule.resolver.resolve(ArticleViewModel.self))!
     
-    @State private var description = ""
-    
     var body: some View {
         
         GeometryReader { proxy in
@@ -39,34 +37,39 @@ struct ArticleListView: View {
                 NavigationView{
                     VStack {
                         if !viewModel.isLoading {
-                            List(viewModel.articles){article in
-                                NavigationLink(destination: DetailView(article: article)) {
-                                    HStack {
-                                        Image(systemName: "circle.fill")
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
-                                            .frame(width: 30, height: 30)
-                                            .clipShape(Circle())
-                                        
-                                        VStack(alignment: .leading){
-                                            Text(article.title ?? " ")
-                                                .font(.headline)
-                                            HStack {
-                                                Text(article.byline ?? " ")
-                                                    .font(.subheadline)
-                                                Spacer()
-                                                Image(systemName: "calendar")
-                                                    .frame(width: 10, height: 10)
-                                                Text(article.publishedDate ?? " ")
-                                                    .font(.footnote)
-                                                
+                            if viewModel.articles.count > 0 {
+                                List(viewModel.articles){article in
+                                    NavigationLink(destination: DetailView(article: article)) {
+                                        HStack {
+                                            Image(systemName: "circle.fill")
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fill)
+                                                .frame(width: 30, height: 30)
+                                                .clipShape(Circle())
+                                            
+                                            VStack(alignment: .leading){
+                                                Text(article.title ?? " ")
+                                                    .font(.headline)
+                                                HStack {
+                                                    Text(article.byline ?? " ")
+                                                        .font(.subheadline)
+                                                    Spacer()
+                                                    Image(systemName: "calendar")
+                                                        .frame(width: 10, height: 10)
+                                                    Text(article.publishedDate ?? " ")
+                                                        .font(.footnote)
+                                                    
+                                                }
                                             }
                                         }
                                     }
+                                    
                                 }
-                                
-                            }.listStyle(.plain)
-                             .accessibilityIdentifier("ArticleList")
+                                .listStyle(.plain)
+                                .accessibilityIdentifier("ArticleList")
+                            }else {
+                                Text(viewModel.errorMessage)
+                            }
                             
                         }
                         else {
