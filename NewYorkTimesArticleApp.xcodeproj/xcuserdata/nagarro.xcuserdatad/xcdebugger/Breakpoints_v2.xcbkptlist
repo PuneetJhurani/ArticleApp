@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DDB340A5-2121-4DE1-8A5D-789B9C67B5F3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "020D9861-17CA-4B67-92DD-512079706E32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getEntity(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "020D9861-17CA-4B67-92DD-512079706E32 - f871e6f90ad541c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "020D9861-17CA-4B67-92DD-512079706E32 - f871e6f90ad541c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1ED2935-EB9A-4D52-95EE-E053ABB04BE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getEntity(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1ED2935-EB9A-4D52-95EE-E053ABB04BE0 - f871e6f90ad55c96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "F1ED2935-EB9A-4D52-95EE-E053ABB04BE0 - f871e6f90ad543d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE2F21A6-B074-46BF-AF6E-755184A8CA81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getEntity(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE2F21A6-B074-46BF-AF6E-755184A8CA81 - f871e6f90ad55c54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "AE2F21A6-B074-46BF-AF6E-755184A8CA81 - f871e6f90ad5439e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "468F9F64-824E-4EE1-90A0-B52D94A335D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getEntity(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "468F9F64-824E-4EE1-90A0-B52D94A335D0 - f871e6f90ad55ec1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "468F9F64-824E-4EE1-90A0-B52D94A335D0 - f871e6f90ad55c0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0D2FC0A-DDD9-49AF-8B0D-A618A9226BE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getEntity(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F0D2FC0A-DDD9-49AF-8B0D-A618A9226BE7 - f871e6f90ad55e87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "F0D2FC0A-DDD9-49AF-8B0D-A618A9226BE7 - f871e6f90ad55dc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewYorkTimesArticleApp.MockRepository.getEntity(completion: (NewYorkTimesArticleApp.Resource&lt;Swift.Array&lt;NewYorkTimesArticleApp.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NewYorkTimesArticleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagarro/Downloads/NewYorkTimesArticleApp/NewYorkTimesArticleAppTests/Mocks/MockRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
