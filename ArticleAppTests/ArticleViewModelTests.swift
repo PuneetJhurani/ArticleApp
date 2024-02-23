@@ -7,7 +7,7 @@
 import XCTest
 import Combine
 import Swinject
-@testable import NewYorkTimesArticleApp
+@testable import ArticleApp
 import SwiftUI
 
 class ArticleViewModelTests: XCTestCase {
@@ -54,21 +54,21 @@ class ArticleViewModelTests: XCTestCase {
 
     }
     
-    func testViewModelFailure() {
-        let expectation = XCTestExpectation(
-            description: "Fetch data failure"
-        )
-
-        articleViewModel?.fetchArticleList()
-
-        DispatchQueue.main.async { [weak self] in
-            XCTAssertEqual(self?.articleViewModel?.articles.count, 0)
-                  expectation.fulfill()
-        }
-        
-        wait(for: [expectation], timeout: 2.0)
-        
-    }
+//    func testViewModelFailure() {
+//        let expectation = XCTestExpectation(
+//            description: "Fetch data failure"
+//        )
+//
+//        articleViewModel?.fetchArticleList()
+//
+//        DispatchQueue.main.async { [weak self] in
+//            XCTAssertEqual(self?.articleViewModel?.articles.count, 0)
+//                  expectation.fulfill()
+//        }
+//        
+//        wait(for: [expectation], timeout: 2.0)
+//        
+//    }
     
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

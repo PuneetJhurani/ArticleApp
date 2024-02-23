@@ -7,9 +7,9 @@
 
 import XCTest
 
-final class NewYorkTimesArticleAppUITests: XCTestCase {
+final class ArticleAppUITests: XCTestCase {
 
-    var app : XCUIApplication! = nil
+    var app : XCUIApplication!
     
     
     override func setUp() {

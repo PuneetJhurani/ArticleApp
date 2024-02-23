@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5DC2D142B8382F20065CDF1"
-               BuildableName = "NewYorkTimesArticleApp.app"
-               BlueprintName = "NewYorkTimesArticleApp"
-               ReferencedContainer = "container:NewYorkTimesArticleApp.xcodeproj">
+               BuildableName = "ArticleApp.app"
+               BlueprintName = "ArticleApp"
+               ReferencedContainer = "container:ArticleApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5DC2D252B8382F50065CDF1"
-               BuildableName = "NewYorkTimesArticleAppTests.xctest"
-               BlueprintName = "NewYorkTimesArticleAppTests"
-               ReferencedContainer = "container:NewYorkTimesArticleApp.xcodeproj">
+               BuildableName = "ArticleAppTests.xctest"
+               BlueprintName = "ArticleAppTests"
+               ReferencedContainer = "container:ArticleApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5DC2D2F2B8382F50065CDF1"
-               BuildableName = "NewYorkTimesArticleAppUITests.xctest"
-               BlueprintName = "NewYorkTimesArticleAppUITests"
-               ReferencedContainer = "container:NewYorkTimesArticleApp.xcodeproj">
+               BuildableName = "ArticleAppUITests.xctest"
+               BlueprintName = "ArticleAppUITests"
+               ReferencedContainer = "container:ArticleApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5DC2D142B8382F20065CDF1"
-            BuildableName = "NewYorkTimesArticleApp.app"
-            BlueprintName = "NewYorkTimesArticleApp"
-            ReferencedContainer = "container:NewYorkTimesArticleApp.xcodeproj">
+            BuildableName = "ArticleApp.app"
+            BlueprintName = "ArticleApp"
+            ReferencedContainer = "container:ArticleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5DC2D142B8382F20065CDF1"
-            BuildableName = "NewYorkTimesArticleApp.app"
-            BlueprintName = "NewYorkTimesArticleApp"
-            ReferencedContainer = "container:NewYorkTimesArticleApp.xcodeproj">
+            BuildableName = "ArticleApp.app"
+            BlueprintName = "ArticleApp"
+            ReferencedContainer = "container:ArticleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

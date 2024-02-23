@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct NewYorkTimesArticleApp: App {
+struct ArticleApp: App {
     var body: some Scene {
         WindowGroup {
             ArticleListView()

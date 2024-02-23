@@ -19,9 +19,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5DC2D252B8382F50065CDF1"
-               BuildableName = "NewYorkTimesArticleAppTests.xctest"
-               BlueprintName = "NewYorkTimesArticleAppTests"
-               ReferencedContainer = "container:NewYorkTimesArticleApp.xcodeproj">
+               BuildableName = "ArticleAppTests.xctest"
+               BlueprintName = "ArticleAppTests"
+               ReferencedContainer = "container:ArticleApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
