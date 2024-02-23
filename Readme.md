@@ -1,4 +1,4 @@
-# New York Times Article App
+# Article App
 
 
 This APP fetches most viewed Articles form NY Times API and displays them in a list on screen. You can each item on Screen to View Details of the article 
