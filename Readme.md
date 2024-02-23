@@ -23,6 +23,6 @@ To run The Tests -
   To check Coverge - 
   
   1. Right Click on Any Test Suite -> Jump to Report
-  2.  
+  2. In Report Click on Scheme Name and then click on Coverage
   
 
