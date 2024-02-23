@@ -19,8 +19,10 @@ To run The Tests -
   1. Click on run button adjacent to ArticleViewModelTest.
   2. Click on run button adjacent to RepositoryTestCases.
   
-  
-  To check Coverge - 
+To run The UITests - 
+  1. Click on run button adjacent to ArticleAppUITests.
+
+To check Coverge - 
   
   1. Right Click on Any Test Suite -> Jump to Report
   2. In Report Click on Scheme Name and then click on Coverage
