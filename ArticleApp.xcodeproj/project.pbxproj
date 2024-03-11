@@ -14,7 +14,6 @@
 		A50050AF2B84C37400802829 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50050A82B84C37400802829 /* ArticleViewModel.swift */; };
 		A50050B02B84C37400802829 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50050A92B84C37400802829 /* ArticleListView.swift */; };
 		A504ECE92B848543000C6699 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = A504ECE82B848543000C6699 /* Swinject */; };
-		A504ECEB2B848543000C6699 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = A504ECEA2B848543000C6699 /* Swinject-Dynamic */; };
 		A5298C602B846FB700B3013A /* ArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5298C5D2B846FB700B3013A /* ArticleRepository.swift */; };
 		A5298C612B846FB700B3013A /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5298C5E2B846FB700B3013A /* RepositoryProtocol.swift */; };
 		A5298C622B846FB700B3013A /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5298C5F2B846FB700B3013A /* BaseRepository.swift */; };
@@ -106,7 +105,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A504ECE92B848543000C6699 /* Swinject in Frameworks */,
-				A504ECEB2B848543000C6699 /* Swinject-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +362,6 @@
 			name = ArticleApp;
 			packageProductDependencies = (
 				A504ECE82B848543000C6699 /* Swinject */,
-				A504ECEA2B848543000C6699 /* Swinject-Dynamic */,
 			);
 			productName = NewYorkTimesArticleApp;
 			productReference = A5DC2D152B8382F20065CDF1 /* ArticleApp.app */;
@@ -740,7 +737,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.ArticleAppTests;
@@ -762,7 +758,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.ArticleAppTests;
@@ -783,7 +778,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.ArticleAppUITests;
@@ -804,7 +798,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nagarro.ArticleAppUITests;
@@ -875,11 +868,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A504ECE72B848543000C6699 /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
-		};
-		A504ECEA2B848543000C6699 /* Swinject-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A504ECE72B848543000C6699 /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = "Swinject-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
